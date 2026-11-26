@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/ahmad-muhajir-sketch/latihan-cicd.git'
+                git branch: 'main', url: 'https://github.com'
             }
         }
         stage('Test') {
